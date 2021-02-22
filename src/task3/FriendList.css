@@ -1,0 +1,41 @@
+.friend-list{
+    width: 300px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    list-style-type: none;
+    padding: 0;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.avatar-friend{
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 50px;
+}
+
+.item-friend{
+    margin: 8px;
+    margin-right: 10px;
+    display: flex;
+     box-shadow: 0 0 6px rgba(0,0,0,0.2); /* Параметры тени */
+}
+
+.name-friend{
+    margin-left: 12px;
+}
+
+.status{
+    float: left;
+    width: 10px;
+    height: 10px;
+    background-color: yellowgreen;
+    border-radius: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 8px;
+    margin-right: 6px;
+}
